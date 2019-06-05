@@ -1,0 +1,8 @@
+2019-05-26 13:50:40 ERROR UsuarioBO:85 - org.springframework.dao.DataIntegrityViolationException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'id_conexion' cannot be null
+### The error may exist in file [/Users/jesusrojas/Documents/GitHub/RestMQTT/MQTT/target/classes/mx/dao/maps/MapTopicDTO.xml]
+### The error may involve mx.dao.TopicDAO.insertTopics-Inline
+### The error occurred while setting parameters
+### SQL: {CALL s0f1s0ft_datacloud.SP_INSERT_TOPIC(?, ?, ?, ?,         ?, ?, ?)}
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'id_conexion' cannot be null
+; SQL []; Column 'id_conexion' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'id_conexion' cannot be null
