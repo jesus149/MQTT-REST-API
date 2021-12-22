@@ -31,13 +31,14 @@ import javax.mail.internet.MimeMultipart;
 import javax.mail.internet.ParseException;
 
 import org.apache.commons.codec.binary.Base64;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Utils implements Serializable {
 	private static final long serialVersionUID = 1L;
-	private static final Logger LOG = Logger.getLogger(Utils.class.getName());
+	private static final Logger LOG = LogManager.getLogger(Utils.class.getName());
 
 	/**
 	 * 
